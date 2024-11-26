@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/trezor/blockbook/bchain/coins/ftb"
 	"math/big"
 	"os"
 	"reflect"
@@ -142,6 +143,7 @@ func init() {
 	BlockChainFactories["Polygon Archive"] = polygon.NewPolygonRPC
 	BlockChainFactories["Optimism"] = optimism.NewOptimismRPC
 	BlockChainFactories["Optimism Archive"] = optimism.NewOptimismRPC
+	BlockChainFactories["Ftb"] = ftb.NewFtbRPC
 }
 
 // NewBlockChain creates bchain.BlockChain and bchain.Mempool for the coin passed by the parameter coin
