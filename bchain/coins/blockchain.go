@@ -148,6 +148,7 @@ func init() {
 	BlockChainFactories["Arbitrum Archive"] = arbitrum.NewArbitrumRPC
 	BlockChainFactories["Arbitrum Nova"] = arbitrum.NewArbitrumRPC
 	BlockChainFactories["Arbitrum Nova Archive"] = arbitrum.NewArbitrumRPC
+	BlockChainFactories["Ftb"] = ftb.NewFtbRPC
 
 }
 
