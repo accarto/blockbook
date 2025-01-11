@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/accarto/blockbook/bchain/coins/ftb"
 	"math/big"
 	"os"
 	"reflect"
@@ -147,6 +148,7 @@ func init() {
 	BlockChainFactories["Arbitrum Archive"] = arbitrum.NewArbitrumRPC
 	BlockChainFactories["Arbitrum Nova"] = arbitrum.NewArbitrumRPC
 	BlockChainFactories["Arbitrum Nova Archive"] = arbitrum.NewArbitrumRPC
+
 }
 
 // NewBlockChain creates bchain.BlockChain and bchain.Mempool for the coin passed by the parameter coin

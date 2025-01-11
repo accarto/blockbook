@@ -5,6 +5,7 @@ blockbook
 notes.txt
 debug*
 .vscode
+.vs
 docker/blockbook
 build/pkg-defs
 build/blockbook
