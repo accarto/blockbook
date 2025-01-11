@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/trezor/blockbook/bchain/coins/ftb"
+	"github.com/accarto/blockbook/bchain/coins/ftb"
 	"math/big"
 	"os"
 	"reflect"
