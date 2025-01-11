@@ -64,7 +64,7 @@ func (b *BaseChain) EthereumTypeGetErc20ContractBalance(addrDesc, contractDesc A
 	return nil, errors.New("not supported")
 }
 
-// GetContractInfo returns URI of non fungible or multi token defined by token id
+// GetTokenURI returns URI of non fungible or multi token defined by token id
 func (p *BaseChain) GetTokenURI(contractDesc AddressDescriptor, tokenID *big.Int) (string, error) {
 	return "", errors.New("not supported")
 }
@@ -79,5 +79,9 @@ func (b *BaseChain) EthereumTypeGetStakingPoolsData(addrDesc AddressDescriptor) 
 
 // EthereumTypeRpcCall calls eth_call with given data and to address
 func (b *BaseChain) EthereumTypeRpcCall(data, to, from string) (string, error) {
+	return "", errors.New("not supported")
+}
+
+func (b *BaseChain) EthereumTypeGetRawTransaction(txid string) (string, error) {
 	return "", errors.New("not supported")
 }
