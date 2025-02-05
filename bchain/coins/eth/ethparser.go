@@ -8,7 +8,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/juju/errors"
-	"github.com/trezor/blockbook/bchain"
+	"github.com/accarto/blockbook/bchain"
 	"golang.org/x/crypto/sha3"
 	"google.golang.org/protobuf/proto"
 )

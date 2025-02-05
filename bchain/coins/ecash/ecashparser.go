@@ -8,8 +8,8 @@ import (
 	"github.com/martinboehm/btcutil/txscript"
 	"github.com/pirk/ecashaddr-converter/address"
 	"github.com/pirk/ecashutil"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/btc"
+	"github.com/accarto/blockbook/bchain"
+	"github.com/accarto/blockbook/bchain/coins/btc"
 )
 
 // AddressFormat type is used to specify different formats of address

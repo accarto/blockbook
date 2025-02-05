@@ -6,8 +6,8 @@ import (
 
 	"github.com/martinboehm/btcd/wire"
 	"github.com/martinboehm/btcutil/chaincfg"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/common"
+	"github.com/accarto/blockbook/bchain"
+	"github.com/accarto/blockbook/common"
 )
 
 // temp params for signet(wait btcd commit)

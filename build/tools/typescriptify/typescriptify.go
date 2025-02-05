@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/tkrajina/typescriptify-golang-structs/typescriptify"
-	"github.com/trezor/blockbook/api"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/server"
+	"github.com/accarto/blockbook/api"
+	"github.com/accarto/blockbook/bchain"
+	"github.com/accarto/blockbook/server"
 )
 
 func main() {

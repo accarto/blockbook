@@ -13,8 +13,8 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/linxGnu/grocksdb"
-	"github.com/trezor/blockbook/common"
-	"github.com/trezor/blockbook/db"
+	"github.com/accarto/blockbook/common"
+	"github.com/accarto/blockbook/db"
 )
 
 const (

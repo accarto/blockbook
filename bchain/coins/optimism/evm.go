@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/trezor/blockbook/bchain"
+	"github.com/accarto/blockbook/bchain"
 )
 
 // OptimismRPCClient wraps an rpc client to implement the EVMRPCClient interface

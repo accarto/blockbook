@@ -1,4 +1,4 @@
-module github.com/trezor/blockbook
+module github.com/accarto/blockbook
 
 go 1.22.8
 
